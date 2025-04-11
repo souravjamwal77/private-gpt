@@ -7,12 +7,12 @@ llm:
   # Should be matching the selected model
   max_new_tokens: 512
   context_window: 3900
-  tokenizer: meta-llama/Meta-Llama-3.1-8B-Instruct
+  tokenizer: meta-llama/Meta-gemma3:1b-8B-Instruct
   prompt_style: "llama3"
 
 llamacpp:
-  llm_hf_repo_id: lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF
-  llm_hf_model_file: Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf
+  llm_hf_repo_id: lmstudio-community/Meta-gemma3:1b-8B-Instruct-GGUF
+  llm_hf_model_file: Meta-gemma3:1b-8B-Instruct-Q4_K_M.gguf
 
 embedding:
   mode: huggingface
